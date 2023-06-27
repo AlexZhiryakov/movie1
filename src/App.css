@@ -1,38 +1,229 @@
-.App {
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parter {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* // цены */
+
+.first-color {
+  border-radius: 90px;
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.second-color {
+  border-radius: 90px;
+  background-color: greenyellow;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.third-color {
+  border-radius: 90px;
+  background-color: blueviolet;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+.fourth-color {
+  border-radius: 90px;
+  background-color: peru;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+.fifth-color {
+  border-radius: 90px;
+  background-color: darkcyan;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+
+.first-prise, .second-prise, .third-prise, .fourth-prise, .fifth-prise {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin: 0 30px;
+}
+
+.price {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fourth-text {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* // места */
+
+.place-1, .place-2, .place-3, .place-4, .place-5, .place-6, .place-7, .place-8, .place-9, .place-10 {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.place-red, .place-red-2 {
+  border-radius: 2px;
+  background-color: red;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.place-color-1 {
+  margin-left: 200px;
+  display: flex;
+}
+
+.place-color-2 {
+  margin-left: 160px;
+  display: flex;
+}
+
+.place-color-3 {
+  margin-left: 120px;
+  display: flex;
+}
+
+.place-color-4 {
+  margin-left: 120px;
+  display: flex;
+}
+
+.place-color-5 {
+  margin-left: 83px;
+  display: flex;
+}
+
+.place-color-6 {
+  margin-left: 83px;
+  display: flex;
+}
+
+.place-color-7 {
+  margin-left: 46px;
+  display: flex;
+}
+
+.place-color-8 {
+  margin-left: 46px;
+  display: flex;
+}
+
+.place-color-9 {
+  margin-left: 46px;
+  display: flex;
+}
+
+.place-color-10 {
+  margin-left: 36px;
+  display: flex;
+}
+
+.place {
+  margin-left: 310px;
+  margin-top: 70px;
+}
+
+.place-yellow, .place-yellow-2 {
+  border-radius: 2px;
+  background-color: greenyellow;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.place-color-4, .place-color-5, .place-color-6, .place-color-7, .place-color-8, .place-color-9, .place-color-10 {
+  display: flex;
+}
+
+.place-purple, .place-purple-2 {
+  border-radius: 2px;
+  background-color: blueviolet;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.place-orange, .place-orange-2 {
+  border-radius: 2px;
+  background-color: peru;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.place-blue, .place-blue-2 {
+  border-radius: 2px;
+  background-color: darkcyan;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  display: flex;
+}
+
+/* // оплата */
+
+.pay {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  background-color: red;
+  width: 200px;
+  height: 40px;
+  border-radius: 7px;
+  margin-left: 350px;
+}
+
+.summa {
+  margin-left: 30px;
+  color: aliceblue;
+  margin-top: 8px;
+}
+
+.total, .summa {
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 8px;
+}
+
+footer {
+  display: flex;
+}
+
+.pay-2 {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  background-color: red;
+  width: 200px;
+  height: 40px;
+  border-radius: 7px;
+  margin-left: 350px;
+  color: aliceblue;
+}
+
+.kupit {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.hendler {
+  background-color: #fff;
 }
